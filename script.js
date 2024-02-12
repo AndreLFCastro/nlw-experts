@@ -1,97 +1,98 @@
 // cria o array perguntas, e cada item do array é um objeto contendo as perguntas e suas respostas
 
 const perguntas = [
-    {
-      pergunta: "O que é JavaScript?",
-      respostas: [
-        "Uma linguagem de marcação",
-        "Uma linguagem de programação",
-        "Um sistema operacional",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual palavra-chave é usada para declarar uma variável em JavaScript, que não pode ser reatribuída?",
-      respostas: [
-        "var",
-        "let",
-        "const",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual desses é um método de iteração em arrays?",
-      respostas: [
-        "loop()",
-        "for()",
-        "forEach()",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Um modelo de design de sites",
-        "Um banco de dados",
-        "Uma interface para acessar e interagir com elementos HTML",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual função é usada para imprimir algo no console em JavaScript?",
-      respostas: [
-        "console.print()",
-        "console.log()",
-        "print()",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é um evento em JavaScript?",
-      respostas: [
-        "Um método de iteração em arrays",
-        "Um objeto JavaScript",
-        "Uma ação que ocorre em um documento HTML que pode ser manipulada por JavaScript",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual símbolo é usado para comentários de uma linha em JavaScript?",
-      respostas: [
-        "//",
-        "/* */",
-        "<!-- -->",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual desses é um tipo de dado primitivo em JavaScript?",
-      respostas: [
-        "Object",
-        "String",
-        "Function",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como você declara uma função em JavaScript?",
-      respostas: [
-        "function minhaFuncao() {}",
-        "def minhaFuncao() {}",
-        "method minhaFuncao() {}",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual dessas é uma estrutura de controle de fluxo em JavaScript?",
-      respostas: [
-        "if-else",
-        "switch-case",
-        "Tanto if-else quanto switch-case",
-      ],
-      correta: 2
-    },
-  ];
+  {
+    pergunta: "Quais são algumas práticas para manter o equilíbrio com uma cabeça grande?",
+    respostas: [
+      "Fazer exercícios de fortalecimento do pescoço",
+      "Manter uma postura adequada",
+      "Usar travesseiros ergonômicos",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Por que é importante manter uma postura adequada?",
+    respostas: [
+      "Para evitar dores nas costas",
+      "Para melhorar a circulação sanguínea",
+      "Para reduzir a pressão sobre a coluna cervical",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é a vantagem de usar travesseiros ergonômicos?",
+    respostas: [
+      "Reduzem o risco de dores de cabeça",
+      "Promovem um alinhamento correto da coluna cervical",
+      "Ajudam a manter a temperatura corporal estável",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Que tipo de atividades físicas podem ser benéficas para pessoas com cabeça grande?",
+    respostas: [
+      "Yoga",
+      "Pilates",
+      "Natação",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quais são os riscos de não manter o equilíbrio adequado com uma cabeça grande?",
+    respostas: [
+      "Dores crônicas nas costas",
+      "Tonturas e vertigens",
+      "Dificuldades de concentração",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Como o fortalecimento do pescoço pode ajudar?",
+    respostas: [
+      "Reduzindo o risco de enxaquecas",
+      "Melhorando a mobilidade da cabeça",
+      "Prevenindo lesões cervicais",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quais são alguns sinais de que a postura está inadequada?",
+    respostas: [
+      "Dores no pescoço",
+      "Dificuldade para respirar",
+      "Dormência nas pernas",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é a importância de manter a coluna cervical alinhada?",
+    respostas: [
+      "Para evitar problemas digestivos",
+      "Para reduzir a pressão sobre os discos intervertebrais",
+      "Para melhorar a visão",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quais são algumas dicas para ajustar a altura da cadeira em relação à mesa?",
+    respostas: [
+      "Os cotovelos devem estar acima do nível da mesa",
+      "Os pés devem ficar apoiados no chão",
+      "A cadeira deve estar totalmente inclinada para trás",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Por que é importante evitar ficar muito tempo na mesma posição?",
+    respostas: [
+      "Para manter a temperatura corporal estável",
+      "Para reduzir a fadiga muscular",
+      "Para evitar sobrecarregar determinadas áreas do corpo",
+    ],
+    correta: 2
+  },
+];
+
   
   // seleciona o elemento HTML com a id #quiz e armazena sua referencia na variavel quiz
   
