@@ -4,5 +4,5 @@ Atividade do evento NLW Experts
 ## Tecnologias Utilizadas
 -HTML
 -CSS
--Jacascript
+-Javascript
 -Github
